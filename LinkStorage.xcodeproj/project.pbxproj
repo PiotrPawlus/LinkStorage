@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C12A9EF41B71F73200BA208E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A9EF31B71F73200BA208E /* AppDelegate.swift */; };
+		C12A9EF71B71F73200BA208E /* LinkStorage.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C12A9EF51B71F73200BA208E /* LinkStorage.xcdatamodeld */; };
+		C12A9EFC1B71F73200BA208E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12A9EFA1B71F73200BA208E /* Main.storyboard */; };
+		C12A9EFE1B71F73200BA208E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C12A9EFD1B71F73200BA208E /* Images.xcassets */; };
+		C12A9F011B71F73200BA208E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C12A9EFF1B71F73200BA208E /* LaunchScreen.xib */; };
+		C12A9F0D1B71F73200BA208E /* LinkStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A9F0C1B71F73200BA208E /* LinkStorageTests.swift */; };
+		C12A9F191B71F7AB00BA208E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C12A9F181B71F7AB00BA208E /* SWRevealViewController.m */; };
+		C12A9F1B1B71F9B400BA208E /* AddLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A9F1A1B71F9B400BA208E /* AddLinkViewController.swift */; };
+		C12A9F1D1B71F9DF00BA208E /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A9F1C1B71F9DF00BA208E /* HistoryTableViewController.swift */; };
+		C12A9F1F1B71FA1200BA208E /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A9F1E1B71FA1200BA208E /* MenuTableViewController.swift */; };
+		C12A9F211B720B1900BA208E /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A9F201B720B1900BA208E /* HttpRequest.swift */; };
+		C12A9F231B72181800BA208E /* HttpAddresses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C12A9F221B72181800BA208E /* HttpAddresses.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C12A9F071B71F73200BA208E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C12A9EE61B71F73200BA208E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C12A9EED1B71F73200BA208E;
+			remoteInfo = LinkStorage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C12A9EEE1B71F73200BA208E /* LinkStorage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LinkStorage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12A9EF21B71F73200BA208E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12A9EF31B71F73200BA208E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C12A9EF61B71F73200BA208E /* LinkStorage.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LinkStorage.xcdatamodel; sourceTree = "<group>"; };
+		C12A9EFB1B71F73200BA208E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C12A9EFD1B71F73200BA208E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C12A9F001B71F73200BA208E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C12A9F061B71F73200BA208E /* LinkStorageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LinkStorageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C12A9F0B1B71F73200BA208E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C12A9F0C1B71F73200BA208E /* LinkStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkStorageTests.swift; sourceTree = "<group>"; };
+		C12A9F161B71F7AA00BA208E /* LinkStorage-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LinkStorage-Bridging-Header.h"; sourceTree = "<group>"; };
+		C12A9F171B71F7AB00BA208E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		C12A9F181B71F7AB00BA208E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C12A9F1A1B71F9B400BA208E /* AddLinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddLinkViewController.swift; sourceTree = "<group>"; };
+		C12A9F1C1B71F9DF00BA208E /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		C12A9F1E1B71FA1200BA208E /* MenuTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		C12A9F201B720B1900BA208E /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		C12A9F221B72181800BA208E /* HttpAddresses.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpAddresses.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C12A9EEB1B71F73200BA208E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12A9F031B71F73200BA208E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C12A9EE51B71F73200BA208E = {
+			isa = PBXGroup;
+			children = (
+				C12A9EF01B71F73200BA208E /* LinkStorage */,
+				C12A9F091B71F73200BA208E /* LinkStorageTests */,
+				C12A9EEF1B71F73200BA208E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C12A9EEF1B71F73200BA208E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C12A9EEE1B71F73200BA208E /* LinkStorage.app */,
+				C12A9F061B71F73200BA208E /* LinkStorageTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C12A9EF01B71F73200BA208E /* LinkStorage */ = {
+			isa = PBXGroup;
+			children = (
+				C12A9EF31B71F73200BA208E /* AppDelegate.swift */,
+				C12A9F201B720B1900BA208E /* HttpRequest.swift */,
+				C12A9F1E1B71FA1200BA208E /* MenuTableViewController.swift */,
+				C12A9F1A1B71F9B400BA208E /* AddLinkViewController.swift */,
+				C12A9F1C1B71F9DF00BA208E /* HistoryTableViewController.swift */,
+				C12A9EFA1B71F73200BA208E /* Main.storyboard */,
+				C12A9EF11B71F73200BA208E /* Supporting Files */,
+			);
+			path = LinkStorage;
+			sourceTree = "<group>";
+		};
+		C12A9EF11B71F73200BA208E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C12A9F221B72181800BA208E /* HttpAddresses.swift */,
+				C12A9EF51B71F73200BA208E /* LinkStorage.xcdatamodeld */,
+				C12A9F171B71F7AB00BA208E /* SWRevealViewController.h */,
+				C12A9F181B71F7AB00BA208E /* SWRevealViewController.m */,
+				C12A9F161B71F7AA00BA208E /* LinkStorage-Bridging-Header.h */,
+				C12A9EF21B71F73200BA208E /* Info.plist */,
+				C12A9EFF1B71F73200BA208E /* LaunchScreen.xib */,
+				C12A9EFD1B71F73200BA208E /* Images.xcassets */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C12A9F091B71F73200BA208E /* LinkStorageTests */ = {
+			isa = PBXGroup;
+			children = (
+				C12A9F0C1B71F73200BA208E /* LinkStorageTests.swift */,
+				C12A9F0A1B71F73200BA208E /* Supporting Files */,
+			);
+			path = LinkStorageTests;
+			sourceTree = "<group>";
+		};
+		C12A9F0A1B71F73200BA208E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C12A9F0B1B71F73200BA208E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C12A9EED1B71F73200BA208E /* LinkStorage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12A9F101B71F73200BA208E /* Build configuration list for PBXNativeTarget "LinkStorage" */;
+			buildPhases = (
+				C12A9EEA1B71F73200BA208E /* Sources */,
+				C12A9EEB1B71F73200BA208E /* Frameworks */,
+				C12A9EEC1B71F73200BA208E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinkStorage;
+			productName = LinkStorage;
+			productReference = C12A9EEE1B71F73200BA208E /* LinkStorage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C12A9F051B71F73200BA208E /* LinkStorageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C12A9F131B71F73200BA208E /* Build configuration list for PBXNativeTarget "LinkStorageTests" */;
+			buildPhases = (
+				C12A9F021B71F73200BA208E /* Sources */,
+				C12A9F031B71F73200BA208E /* Frameworks */,
+				C12A9F041B71F73200BA208E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C12A9F081B71F73200BA208E /* PBXTargetDependency */,
+			);
+			name = LinkStorageTests;
+			productName = LinkStorageTests;
+			productReference = C12A9F061B71F73200BA208E /* LinkStorageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C12A9EE61B71F73200BA208E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Piotr Pawluś";
+				TargetAttributes = {
+					C12A9EED1B71F73200BA208E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C12A9F051B71F73200BA208E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C12A9EED1B71F73200BA208E;
+					};
+				};
+			};
+			buildConfigurationList = C12A9EE91B71F73200BA208E /* Build configuration list for PBXProject "LinkStorage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C12A9EE51B71F73200BA208E;
+			productRefGroup = C12A9EEF1B71F73200BA208E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C12A9EED1B71F73200BA208E /* LinkStorage */,
+				C12A9F051B71F73200BA208E /* LinkStorageTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C12A9EEC1B71F73200BA208E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12A9EFC1B71F73200BA208E /* Main.storyboard in Resources */,
+				C12A9F011B71F73200BA208E /* LaunchScreen.xib in Resources */,
+				C12A9EFE1B71F73200BA208E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12A9F041B71F73200BA208E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C12A9EEA1B71F73200BA208E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12A9F1B1B71F9B400BA208E /* AddLinkViewController.swift in Sources */,
+				C12A9EF41B71F73200BA208E /* AppDelegate.swift in Sources */,
+				C12A9F1F1B71FA1200BA208E /* MenuTableViewController.swift in Sources */,
+				C12A9EF71B71F73200BA208E /* LinkStorage.xcdatamodeld in Sources */,
+				C12A9F231B72181800BA208E /* HttpAddresses.swift in Sources */,
+				C12A9F191B71F7AB00BA208E /* SWRevealViewController.m in Sources */,
+				C12A9F211B720B1900BA208E /* HttpRequest.swift in Sources */,
+				C12A9F1D1B71F9DF00BA208E /* HistoryTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C12A9F021B71F73200BA208E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12A9F0D1B71F73200BA208E /* LinkStorageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C12A9F081B71F73200BA208E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C12A9EED1B71F73200BA208E /* LinkStorage */;
+			targetProxy = C12A9F071B71F73200BA208E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C12A9EFA1B71F73200BA208E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12A9EFB1B71F73200BA208E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C12A9EFF1B71F73200BA208E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C12A9F001B71F73200BA208E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C12A9F0E1B71F73200BA208E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C12A9F0F1B71F73200BA208E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C12A9F111B71F73200BA208E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = LinkStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LinkStorage/LinkStorage-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C12A9F121B71F73200BA208E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = LinkStorage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "LinkStorage/LinkStorage-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		C12A9F141B71F73200BA208E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LinkStorageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkStorage.app/LinkStorage";
+			};
+			name = Debug;
+		};
+		C12A9F151B71F73200BA208E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LinkStorageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LinkStorage.app/LinkStorage";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C12A9EE91B71F73200BA208E /* Build configuration list for PBXProject "LinkStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12A9F0E1B71F73200BA208E /* Debug */,
+				C12A9F0F1B71F73200BA208E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12A9F101B71F73200BA208E /* Build configuration list for PBXNativeTarget "LinkStorage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12A9F111B71F73200BA208E /* Debug */,
+				C12A9F121B71F73200BA208E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C12A9F131B71F73200BA208E /* Build configuration list for PBXNativeTarget "LinkStorageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12A9F141B71F73200BA208E /* Debug */,
+				C12A9F151B71F73200BA208E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C12A9EF51B71F73200BA208E /* LinkStorage.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C12A9EF61B71F73200BA208E /* LinkStorage.xcdatamodel */,
+			);
+			currentVersion = C12A9EF61B71F73200BA208E /* LinkStorage.xcdatamodel */;
+			path = LinkStorage.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C12A9EE61B71F73200BA208E /* Project object */;
+}
