@@ -10,14 +10,14 @@
 	<string>LinkStorage</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>94B1EB4842DFAC7DB13C09DE990943FDC891175F</key>
+		<key>103C3C0F03D4C1ED9C182D8C6897AE84F37ADBB7</key>
 		<string>https://github.com/PiotrPawlus/LinkStorage.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>LinkStorage.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>94B1EB4842DFAC7DB13C09DE990943FDC891175F</key>
+		<key>103C3C0F03D4C1ED9C182D8C6897AE84F37ADBB7</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>94B1EB4842DFAC7DB13C09DE990943FDC891175F</string>
+	<string>103C3C0F03D4C1ED9C182D8C6897AE84F37ADBB7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>94B1EB4842DFAC7DB13C09DE990943FDC891175F</string>
+			<string>103C3C0F03D4C1ED9C182D8C6897AE84F37ADBB7</string>
 			<key>IDESourceControlWCCName</key>
 			<string>LinkStorage</string>
 		</dict>

@@ -19,7 +19,6 @@ class HistoryTableViewController: UITableViewController {
         alertController.addAction(UIAlertAction(title: "Cancel", style: .Cancel, handler: nil))
         alertController.addAction(UIAlertAction(title: "Clear", style: .Destructive, handler:
             { action in
-                println("historia czysta")
                 let appDelegate: AppDelegate = UIApplication.sharedApplication().delegate as! AppDelegate
                 let context: NSManagedObjectContext = appDelegate.managedObjectContext!
                 let request = NSFetchRequest(entityName: "HttpAddresses")
